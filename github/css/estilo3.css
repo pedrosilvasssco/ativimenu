@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url("fundo.jpg");
+    background-size: 100%;
+}
+img {
+    width: 60px;
+}
+nav {
+    background-color: rgba(16,16,16 ,0.5);
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: -200px; 
+    transition: all 0.5s;
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(200px);
+}
+ul {
+    list-style: none;
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: 20px;
+}
+a:hover {
+    background: rgba(175, 225, 225, 0.6);
+    color: darkblue
+}
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+
+}

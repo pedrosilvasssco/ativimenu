@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Yuji+Hentaigana+Akari&display=swap');
+
+.btn {
+    font-family: 'caprasimo', cursive;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-verde{
+    background: greenyellow;
+    color: darkblue;
+    box-shadow: 0 5px 0 green;
+}
+
+.btn-verde:hover{
+    background: rgb(112, 111, 60);
+    color: rgb(181, 165, 184);
+    box-shadow: 0 5px 0 rgb(6, 51, 6);
+}
+
+.btn-lilas {
+    background: purple;
+    color: yellow;
+    box-shadow: 0 5px 0 rgb(51, 26, 51);
+}
+
+.btn-lilas:hover {
+    background: rgb(13, 42, 105);
+    color: rgb(139, 32, 37);
+    box-shadow: 0 5px 0 rgb(255, 175, 3);
+}
+
+.btn-azul {
+    background: blue;
+    color: lightblue;
+    box-shadow: 0 5px 0 darkblue;
+}
+
+.btn-azul:hover {
+    background: rgb(253, 0, 97);
+    color: rgb(1, 12, 15);
+    box-shadow: 0 5px 0 rgb(129, 161, 135);
+}

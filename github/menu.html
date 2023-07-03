@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu1</title>
+    <style>
+        body{
+            background: #ceecee;
+        }
+        .corpo{
+            width: 1000px;
+            height: 400px;
+            box-shadow: 5px 5px 20px #000;
+        }
+        .item {
+            list-style: none;
+            width: 250px;
+            padding-top: 10px;
+        }
+        .azul {
+            height: 70px;
+            width: 70px;
+            background: #00f;
+            position: absolute;
+            transition: width 0.3s ease-out;
+        }
+        .cinza {
+            height: 70px;
+            width: 250px;
+            background: #aaa;
+        }
+        a {
+            position: absolute;
+            color: #fff;
+            text-decoration: none;
+            font-family: arial;
+            z-index: 1;
+            margin: 20px 80px;
+        }
+        .item:hover {
+            cursor: pointer;
+        }
+        .item:hover .azul {
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="corpo">
+        <ul class="menu">
+            <li class="item">
+                <a href="https://www.youtube.com/">Item 1</a>
+                <div class="azul"></div>
+                <div class="cinza"></div>
+            </li>
+            <li class="item">
+                <a href="https://pt-br.facebook.com/">Item 2</a>
+                <div class="azul"></div>
+                <div class="cinza"></div>
+            </li>
+            <li class="item">
+                <a href="https://www.instagram.com/">Item 3</a>
+                <div class="azul"></div>
+                <div class="cinza"></div>
+            </li>
+            <li class="item">
+                <a href="https://www.tiktok.com/pt-BR/">Item 4</a>
+                <div class="azul"></div>
+                <div class="cinza"></div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
